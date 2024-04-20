@@ -6,7 +6,10 @@ namespace GoogleTakeout.Commands
 {
     public class ImportMediaCommand : ConsoleAppBase
     {
-        public void ImportMedia(string source, string destination)
+        [RootCommand]
+        public void ImportMedia(
+            [Option("s", "Path to the folder where you unzipped all zip files.")] string source,
+            [Option("d", "Path to destination folder.")] string destination)
         {
             var allFiles = DirectoryHelper.GetAllFilesWithExtension(
                 source, 
