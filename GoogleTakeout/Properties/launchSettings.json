@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "GoogleTakeout": {
+      "commandName": "Project",
+      "commandLineArgs": "import-media --source \"C:\\Users\\alexe\\Downloads\\google-takeout-unzipped\" --destination \"C:\\Users\\alexe\\Downloads\\google-takeout-result1\""
+    }
+  }
+}
