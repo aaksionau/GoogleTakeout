@@ -8,11 +8,11 @@ Download all zip files of your photos using google takeout.
 With [7-zip tool](https://www.7-zip.org/download.html) unzip all folders to one folder.
 
 Download GoogleTakeout tool, save the path to this tool.
-Open terminal (on windows in search put "terminal). 
+Open terminal (on windows in search put "terminal"). 
 
 ```
 cd 'path to googletakeout tool'
-Usage: GoogleTakeout [options...]
+Usage: .\GoogleTakeout.exe [options...]
 
 Options:
   -s, --source <String>         Path to the folder where you unzipped all zip files. (Required)
